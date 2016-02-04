@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cloudlab</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href="minion.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="default.css" rel="stylesheet" type="text/css"  />
+        <link rel="stylesheet" href="css/circular_style.css">  
+                
+
+
+  <script src="block/blockly_compressed.js"></script>
+  <script src="block/blocks_compressed.js"></script>
+  <script src="block/javascript_compressed.js"></script>
+  <script src="block/msg/js/en.js"></script>
+  <script src="block/generators/javascript/electronics.js"></script>
+  <script src="block/generators/javascript/procedures.js"></script>
+
+  <script src="block/arduino_compressed.js"></script>
+  <script src="block/Blob.js"></script>
+  <script src="block/spin.js"></script>
+  <script src="block/FileSaver.min.js"></script>
+  <script src="block/blockly_helper.js"></script>
+  
+
+
+
+
+<link rel="stylesheet" href="CodeMirror-master/lib/codemirror.css">
+<link rel="stylesheet" href="CodeMirror-master/theme/monokai.css">
+<script src="CodeMirror-master/lib/codemirror.js"></script>
+<script src="CodeMirror-master/addon/hint/show-hint.js"></script>
+<script src="CodeMirror-master/addon/hint/javascript-hint.js"></script>
+
+<script src="CodeMirror-master/addon/search/searchcursor.js"></script>
+<script src="CodeMirror-master/addon/search/search.js"></script>
+<script src="CodeMirror-master/addon/dialog/dialog.js"></script>
+<script src="CodeMirror-master/addon/edit/matchbrackets.js"></script>
+<script src="CodeMirror-master/addon/edit/closebrackets.js"></script>
+<script src="CodeMirror-master/addon/comment/comment.js"></script>
+<script src="CodeMirror-master/addon/wrap/hardwrap.js"></script>
+<script src="CodeMirror-master/addon/fold/foldcode.js"></script>
+<script src="CodeMirror-master/addon/fold/brace-fold.js"></script>
+<script src="CodeMirror-master/mode/clike/clike.js"></script>
+<script src="CodeMirror-master/keymap/sublime.js"></script>
+<script src="CodeMirror-master/addon/search/searchcursor.js"></script>
+<script src="CodeMirror-master/addon/search/search.js"></script>
+<script src="CodeMirror-master/addon/search/matchesonscrollbar.js"></script>
+<script src="CodeMirror-master/addon/hint/show-hint.js"></script>
+<script src="CodeMirror-master/addon/hint/anyword-hint.js"></script>
+
+
+    </head>
+    
+    <body>
+
+
+
+      
+      
+      <div class="bill">
+
+        <div class="lights">
+          <span class="white_light"></span>
+          <span class="dark_light"></span>
+        </div>
+        <div class="hair">
+          <span class="hair1"></span>
+          <span class="hair1 make_it_left_hair1"></span>
+          <span class="hair2"></span>
+        </div>
+
+        <div class="eyes">
+          <div class="eye_animate">
+            
+          </div>
+
+          <div class="glasses"></div>
+            <div class="white_part">
+              <div class="brown_eye">
+                <span class="black_part"></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="black_tie">
+          <span class="right_tie">
+            <div class="top_tie"></div>
+            <div class="down_tie"></div>
+          </span>
+          <span class="left_tie">
+            <div class="top_tie"></div>
+            <div class="down_tie"></div>
+          </span>
+        </div>
+
+        <div class="smile"></div>
+
+        <div class="arm"></div>
+        <div class="hand"><span class="hand_parts"><span></div>
+
+        <div class="arm make_it_right_arm"></div>
+        <div class="hand make_it_right_hand"><span class="hand_parts"><span></div>
+
+        <div class="curves">
+          <span class="curve1"></span>
+          <span class="curve1 make_it_left_curve"></span>
+          <span class="curve2"></span>
+        </div>
+
+        <div class="clothes">
+          <div class="main"></div>
+          <div class="blue_borders"></div>
+          <div class="right_shirt"></div>
+          <div class="right_shirt make_it_left"></div>
+          <div class="bottom"></div>
+        </div>
+
+        <div class="pocket">
+          <div class="logo"></div>
+          <span class="lines"></span>
+        </div>
+
+        <div class="legs">
+          <div class="right_leg"></div>
+          <div class="right_leg make_it_left_leg"></div>
+          <div class="shoes"><span class="small_shoes"></span></div>
+          <div class="shoes make_it_left_shoes"><span class="small_shoes"></span></div>
+        </div>
+
+        <h2>Bill</h2>
+      </div>
+
+
+
+
+
+      <div class="jerry">
+
+        <div class="lights">
+          <span class="white_light"></span>
+          <span class="dark_light"></span>
+        </div>
+        <div class="jerry_hair">
+          <ul>
+          <li class="h1"></li>
+          <li class="h2"></li>
+          <li class="h3"></li>
+          <li class="h4"></li>
+          <li class="h5"></li>
+          <li class="h6"></li>
+          <li class="h7"></li>
+          <li class="h8"></li>
+          <li class="h9"></li>
+          <li class="h10"></li>
+          <li class="h11"></li>
+          <li class="h12"></li>
+          </ul>
+        </div>
+
+        <div class="eyes1">
+          <div class="eye_animate"></div>
+
+          <div class="glasses"></div>
+            <div class="white_part">
+              <div class="brown_eye">
+                <span class="black_part"></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="eyes2">
+          <div class="eye_animate"></div>
+
+          <div class="glasses"></div>
+            <div class="white_part">
+              <div class="brown_eye">
+                <span class="black_part"></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="jerry_hand">
+          <div class="jerry_lh"></div>
+          <div class="animated_lh">
+            <span class="gloves_lh"></span>
+            <span class="gloves_lh2"></span>
+          </div>
+
+          <div class="jerry_rh"></div>
+          <span class="gloves_rh"></span>
+        </div>
+
+        <div class="black_tie">
+          <span class="right_tie">
+            <div class="top_tie"></div>
+            <div class="down_tie"></div>
+          </span>
+          <span class="left_tie">
+            <div class="top_tie"></div>
+            <div class="down_tie"></div>
+          </span>
+        </div>
+
+        <div class="jerry_smile">
+          <span class="teeth1"></span>
+          <span class="teeth2"></span>
+        </div>
+
+        <div class="curves">
+          <span class="jerry_curve1"></span>
+          <span class="jerry_curve1 jerry_left_curve"></span>
+          <span class="jerry_curve2"></span>
+        </div>
+
+        <div class="clothes">
+          <div class="main_jerry"></div>
+          <div class="right_shirt jerry_right_shirt"></div>
+          <div class="right_shirt jerry_left_shirt"></div>
+          <div class="jerry_bottom"></div>
+        </div>
+
+        <div class="pocket">
+          <div class="logo"></div>
+          <span class="lines"></span>
+        </div>
+
+        <div class="legs">
+          <div class="jerry_shoes"><span class="jerry_small_shoes"></span></div>
+          <div class="jerry_shoes jerry_left_shoes"><span class="jerry_small_shoes"></span></div>
+        </div>
+
+        <h2>Jerry</h2>
+
+
+      </div>
+
+
+      <div class="evil">
+
+        <ul class="evil_hair">
+          <li class="eh1"></li>
+          <li class="eh2"></li>
+          <li class="eh3"></li>
+          <li class="eh4"></li>
+          <li class="eh5"></li>
+        </ul>
+
+        <div class="eyes">
+          <div class="eye_animate"></div>
+
+          <div class="glasses"></div>
+            <div class="white_part">
+              <div class="brown_eye">
+                <span class="black_part"></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="black_tie">
+          <span class="right_tie">
+            <div class="top_tie"></div>
+            <div class="down_tie"></div>
+          </span>
+          <span class="left_tie">
+            <div class="top_tie"></div>
+            <div class="down_tie"></div>
+          </span>
+        </div>
+
+        <div class="evil_mouth">
+          <span class="evil_teeth"></span>
+          <span class="evil_teeth1"></span>
+        </div>
+
+        <div class="clothes">
+          <div class="right_shirt evil_right_shirt"></div>
+          <div class="right_shirt evil_left_shirt"></div>
+          <div class="evil_bottom"></div>
+          <div class="evil_logo"><p>M</p></div>
+        </div>
+
+        <div class="legs">
+          <div class="evil_right_leg"></div>
+          <div class="evil_right_leg evil_left_leg"></div>
+          <div class="shoes evil_right_shoes"><span class="small_shoes"></span></div>
+          <div class="shoes evil_left_shoes"><span class="small_shoes"></span></div>
+        </div>
+
+
+        <div class="evil_hand">
+          <div class="evil_rh">
+            <span class="evil_gloves_rh"></span>
+          </div>
+          <div class="evil_lh">
+            <span class="evil_gloves_lh"></span>
+          </div>
+        </div>
+
+        <h2>Evil</h2>
+
+      </div>
+
+
+    </div>
+
+
+
+        <div class="section primary-section" id="service">
+        
+      
+
+         <div class="oval-thought-border ">
+
+          <div class="jerry-content" align="center">
+          
+            Welcome to Hack In CLoud 
+          </br></br></br>
+            Let The Hack Begin!!!
+            
+            </br></br></br>
+            Click On Menu
+            
+          </div>
+           <div align=center class="views">
+      <script>var color='black';</script><script type='text/javascript' src='http://alivestats.com/widget.js'></script>
+      </div>
+
+
+         </div>
+         
+
+
+          
+
+         
+
+
+            <div class="container">
+                <!-- Start title section -->
+
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                               <a href="#use_blockly">
+                                <img class="img-circle" src="images/blockly.png" alt="service 1">
+                            </a>
+                            </div>
+                            <h3>Use Blockly</h3>
+                            <p>Generate the code using.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                               <a href="#text_editor">
+                                <img class="img-circle" src="images/sublime.jpg" alt="service 1">
+                            </a>
+                            </div>
+                            <h3>Use Text Editor</h3>
+                            <p>Write the code in colourful text editor.</p>
+                        </div>
+                    </div>
+                   
+
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                               <a href="#simulate">
+                                <img class="img-circle" src="images/simulate.png" alt="service 3">
+                               </a>
+                            </div>
+                            <h3>Test with simulation</h3>
+                            <p>Simulate your design as given by autodesk</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                               <a href="#output">
+                                <img class="img-circle" src="images/appear.png" alt="service 3">
+                                </a>
+                            </div>
+                            <h3>Check output</h3>
+                            <p>Check the ouput instantly with actual hardware.</p>
+                        </div>
+                        <div class="oval-thought ">Content</div>
+
+                    </div>
+
+                    
+                    <div align="center" class="vid" >
+                      <iframe src="https://drive.google.com/file/d/0B3kBZccgRrw3RFplN1hBel9OMzQ/preview" width="640" height="480"></iframe>
+                  </div>
+                </br>
+
+
+        </div>
+        <!-- Service section end -->
+        <!-- Portfolio section start -->
+        <div class="triangle"></div>
+
+        <div class="section primary-section" id="about">
+            
+              <div id="use_blockly" class="container" align="left">  
+    
+                       
+         <div id="blocklyDiv" style="height:320px; width: 400px;" ></div>
+         </br>
+
+         
+         <div class="selector">
+  <ul>
+
+    <li>
+      <input id="c1" type="button" onclick="discard()"/>
+      <label for="c1">Clear all</label>
+    </li>
+    <li>
+      <input id="c2" type="button" onclick="saveCode()"/>
+      <label for="c2">Download Code</label>
+    </li>
+    <li>
+      <input id="c3" type="button" onclick="save()"/>
+      <label for="c3">Save Project</label>
+    </li>
+    <li>
+      <input id="c4" type="button" onclick="show()"/>
+      <label for="c4">Show Code</label>
+    </li>
+    <li>
+      <input id="c5" type="button" onclick="copy()"/>
+      <label for="c5">Copy Code</label>
+    </li>
+    <li>
+      <input id="c6" type="button" onclick="showCode()"/>
+      <label for="c6">STM32F0</label>
+    </li>
+    <li>
+      <input id="c7" type="button" onclick="showCode1()"/>
+      <label for="c7">Arduino nano</label>
+    </li>
+    <li>
+      <input id="c8" type="button" onclick="showcode2()"/>
+      <label for="c8">STM32F4</label>
+    </li>
+    <li>
+      <input id="c9" type="button" onclick="auto_save_and_restore_blocks()"/>
+      <label for="c9">Import Project</label>
+    </li>
+    
+  </ul>
+  <button>Click Me</button>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/circular_index.js"></script>
+              
+
+
+  <xml id="toolbox" style="display: none">
+    <category name="Logic">
+      <block type="controls_if"></block>
+      <block type="logic_compare"></block>
+      <block type="logic_operation"></block>
+      <block type="logic_negate"></block>
+      <block type="logic_boolean"></block>
+    </category>
+    <category name="Loops">
+      <block type="controls_repeat_ext">
+        <value name="TIMES"\>
+          <block type="math_number">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+      </block>
+      <block type="controls_whileUntil"></block>
+    </category>
+    <category name="Math">
+      <block type="math_number"></block>
+      <block type="math_arithmetic"></block>
+    </category>
+    <category name="Variables">
+      <block type="variables_get"></block>
+      <block type="variables_set"></block>
+    </category>
+    <category name="Hardware">
+      <block type="set_led"></block>
+      <block type="my_delay"></block>
+      <block type="my_set1_led"></block>
+    </category>
+      
+      <category name="Functions" >
+
+      <block type="procedures_defnoreturn"></block>  
+
+      </category>
+    <category name="Arduino">
+      <block type="base_delay">
+        <value name="DELAY_TIME">
+          <block type="math_number">
+            <field name="NUM">1000</field>
+          </block>
+        </value>
+      </block>
+       <block type="inout_highlow"></block>
+      <block type="inout_digital_write"></block>
+      <block type="inout_digital_read"></block>
+        
+      
+    </category>
+      </xml>
+
+
+  <script>
+    var workspace = Blockly.inject('blocklyDiv',
+        {media: 'block/media/',
+         toolbox: document.getElementById('toolbox')});
+    
+    function showCode() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.JavaScript.workspaceToCode(workspace);
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code'+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+
+    function showCode1() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.Arduino.workspaceToCode();
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+      if(xhr)
+      {
+        
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+
+    function showCode2() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.JavaScript.workspaceToCode(workspace);
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code'+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+
+
+    function discard() {
+  var count = Blockly.mainWorkspace.getAllBlocks().length;
+  if (count < 2 || window.confirm('Delete all ' + count + ' blocks?')) {
+    Blockly.mainWorkspace.clear();
+    
+  }
+}
+
+function saveCode() {
+  var fileName = window.prompt('What would you like to name your file?', 'BlocklyDuino')
+  //doesn't save if the user quits the save prompt
+  if(fileName){
+    var blob = new Blob([Blockly.Arduino.workspaceToCode()], {type: 'text/plain;charset=utf-8'});
+    saveAs(blob, fileName + '.ino');
+  }
+}
+    
+    function save() {
+  var xml = Blockly.Xml.workspaceToDom(Blockly.mainWorkspace);
+  var data = Blockly.Xml.domToText(xml);
+  var fileName = window.prompt('What would you like to name your file?', 'BlocklyDuino');
+  // Store data in blob.
+  // var builder = new BlobBuilder();
+  // builder.append(data);
+  // saveAs(builder.getBlob('text/plain;charset=utf-8'), 'blockduino.xml');
+  if(fileName){
+    var blob = new Blob([data], {type: 'text/xml'});
+    saveAs(blob, fileName + ".xml");
+  } 
+}
+
+
+function show() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.Arduino.workspaceToCode();
+      alert(code);
+
+    }
+    
+
+
+    function load(event) 
+    {
+      var files = event.target.files;
+  // Only allow uploading one file.
+  if (files.length != 1) {
+    return;
+  }
+
+  // FileReader
+  var reader = new FileReader();
+  reader.onloadend = function(event) {
+    var target = event.target;
+    // 2 == FileReader.DONE
+    if (target.readyState == 2) {
+      try {
+        var xml = Blockly.Xml.textToDom(target.result);
+      } catch (e) {
+        alert('Error parsing XML:\n' + e);
+        return;
+      }
+      var count = Blockly.mainWorkspace.getAllBlocks().length;
+      if (count && confirm('Replace existing blocks?\n"Cancel" will merge.')) {
+        Blockly.mainWorkspace.clear();
+      }
+      Blockly.Xml.domToWorkspace(Blockly.mainWorkspace, xml);
+    }
+    // Reset value of input after loading because Chrome will not fire
+    // a 'change' event if the same file is loaded again.
+    document.getElementById('load').value = '';
+  };
+  reader.readAsText(files[0]);
+}
+
+
+function auto_save_and_restore_blocks() {
+  // Restore saved blocks in a separate thread so that subsequent
+  // initialization is not affected from a failed load.
+  
+  // Init load event.
+  var loadInput = document.getElementById('load');
+  loadInput.addEventListener('change', load, false);
+  document.getElementById('fakeload').onclick = function() {
+    loadInput.click();
+  };
+}
+
+function copy() {
+
+  Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+  var code = Blockly.Arduino.workspaceToCode();
+      
+  window.prompt("PRESS: Ctrl+C, Enter", code);
+}
+
+
+
+
+  </script>
+</br></br></br>
+</br></br></br>
+</br></br></br>
+</br></br></br>
+</br></br></br>
+</br></br></br>
+
+
+        <div class="triangle"></div>
+</br></br></br>
+<div align="left" id="text_editor">
+
+  <article>
+<script>
+
+
+  CodeMirror.commands.autocomplete = function(cm) {
+        cm.showHint({hint: CodeMirror.hint.anyword});
+      }
+  
+  value = "void setup()"+"\n";
+  value = value + "{"+"\n";
+  value = value + "\n" ;
+  value = value + "\n"+ "\n" ;
+  value = value + "}"+"\n";
+  value = value + "\n"+ "\n";
+  value = value + "void loop()"+"\n";
+  value = value + "{"+"\n";
+  value = value + "\n"+ "\n" ;
+  value = value + "\n" ;
+  value = value + "}"+"\n";
+
+  
+  var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+    value: value,
+    lineNumbers: true,
+    mode: "text/x-csrc",
+    keyMap: "sublime",
+    autoCloseBrackets: true,
+    matchBrackets: true,
+    showCursorWhenSelecting: true,
+    extraKeys: {"Ctrl-Space": "autocomplete","Ctrl-s": "save"},
+    theme: "monokai",
+    tabSize: 5
+  });
+
+  function lol()
+{
+
+      var code = editor.getValue();
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code ..... '+"\n"+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+  
+}
+
+function lol1()
+{
+
+  var code = editor.getValue();
+
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code ........'+"\n"+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+
+}
+
+
+
+
+</script>
+
+</article>
+
+
+<input type="submit" class="btn btn-2 btn-2g" value="Run on Arduino" name="get_started" onclick="lol()">    
+
+
+</div>
+
+              </div>
+          </br></br></br>
+      <div class="triangle"></div>
+        <br>           
+        <div id="simulate" align ="center">
+        <h2>Simulator</h2>
+      </div>
+        </br></br></br>
+        <iframe frameborder="0" height="640" marginheight="0" marginwidth="0" scrolling="yes" src="https://123d.circuits.io/circuits/932406-the-unnamed-circuit/edit" width="1100 "></iframe>
+
+        <div class="triangle"></div>
+        <br>
+        <div id="output" align="center" class="container">
+        <br>
+       Click enter room without enabling your microphone and camera and if you donot see any hardware ,please contact <b>piyush.arora33@gmail.com </b>
+        <h2>Actual Hardware</h2></br>
+        <iframe src="https://appear.in/my_cloud_lab" width="800" height="640" frameborder="0" class="container"></iframe>       
+        </div>
+        </br></br></br>
+        
+
+        <!-- Include javascript -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

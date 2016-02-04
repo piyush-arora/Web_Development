@@ -1,0 +1,28 @@
+1. Making forms responsive
+
+class = "table-responsive"
+
+e.g.
+
+<div class="col-xs-3 table-responsive">
+              <input type="text" class="form-control " placeholder="Enter Project Name">
+              <br>
+              <button type="button" class="btn btn-block btn-success .btn-sm " onclick="location.href = 'boards_test1.html';">Create Project</button>
+            </div>  
+
+
+
+2. Button + Javascript + href
+
+
+<button type="button" onclick="location.href = '[my_page].html';"  >
+[Name_of_button]</button>
+            
+e.g. 
+
+<button type="button" class="btn btn-block btn-success .btn-sm " onclick="location.href = 'boards_test1.html';">Create Project</button>
+
+
+
+
+

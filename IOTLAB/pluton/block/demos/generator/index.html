@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blockly Demo: Generating JavaScript</title>
+  <script src="../../blockly_compressed.js"></script>
+  <script src="../../blocks_compressed.js"></script>
+  <script src="../../javascript_compressed.js"></script>
+  <script src="../../msg/js/en.js"></script>
+  <script src="../../generators/javascript/electronics.js"></script>
+  </head>
+<body>
+  
+  
+    <button onclick="showCode()">Show JavaScript</button>
+    <br><br><br>
+  
+
+  <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+
+  <xml id="toolbox" style="display: none">
+    <category name="Logic">
+      <block type="controls_if"></block>
+      <block type="logic_compare"></block>
+      <block type="logic_operation"></block>
+      <block type="logic_negate"></block>
+      <block type="logic_boolean"></block>
+    </category>
+    <category name="Loops">
+      <block type="controls_repeat_ext">
+        <value name="TIMES">
+          <block type="math_number">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+      </block>
+      <block type="controls_whileUntil"></block>
+    </category>
+    <category name="Math">
+      <block type="math_number"></block>
+      <block type="math_arithmetic"></block>
+    </category>
+    <category name="Variables">
+      <block type="variables_get"></block>
+      <block type="variables_set"></block>
+    </category>
+    <category name="Electronics">
+      <block type="set_led"></block>
+      <block type="my_delay"></block>
+      <block type="my_set1_led"></block>
+    </category>
+        
+
+      </xml>
+
+ 
+  <script>
+    var workspace = Blockly.inject('blocklyDiv',
+        {media: '../../media/',
+         toolbox: document.getElementById('toolbox')});
+    
+    function showCode() {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.JavaScript.workspaceToCode(workspace);
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+      if(xhr)
+      {
+        alert(code);  
+        xhr.open("GET", 'http://lab-mycloudlab.rhcloud.com/pluton/block/demos/generator/my_php.php?my_data='+code , true);
+        xhr.send();
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+    
+  </script>
+
+</body>
+</html>

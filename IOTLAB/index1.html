@@ -1,0 +1,1165 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+
+    <title>Hack In Cloud</title>
+
+    <!-- meta declare to play safe-->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	
+     <!-- style css file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        
+        <!-- css for talking bubble and its contents-->
+    <link href="default.css" rel="stylesheet" type="text/css"  />
+   
+   <!-- minion css file-->
+    <link href="minion.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+		<!-- css files for circulator 2-->
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+	
+
+    <link rel="stylesheet" type="text/css" href="css/component2.css" />
+  
+    <!-- js files for circulator 2-->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    
+    <!-- JS files for blockly -->
+
+    <script src="block/blockly_compressed.js"></script>
+    <script src="block/blocks_compressed.js"></script>
+    <script src="block/javascript_compressed.js"></script>
+    <script src="block/msg/js/en.js"></script>
+    <script src="block/generators/javascript/electronics.js"></script>
+    <script src="block/generators/javascript/procedures.js"></script>
+
+    <script src="block/arduino_compressed.js"></script>
+    <script src="block/Blob.js"></script>
+    <script src="block/spin.js"></script>
+    <script src="block/FileSaver.min.js"></script>
+    <script src="block/blockly_helper.js"></script>
+     
+<!--Sublime text css and js files-->    
+
+    <link rel="stylesheet" href="CodeMirror-master/lib/codemirror.css">
+    <link rel="stylesheet" href="CodeMirror-master/theme/monokai.css">
+    <script src="CodeMirror-master/lib/codemirror.js"></script>
+    <script src="CodeMirror-master/addon/hint/show-hint.js"></script>
+    <script src="CodeMirror-master/addon/hint/javascript-hint.js"></script>
+
+    <script src="CodeMirror-master/addon/search/searchcursor.js"></script>
+    <script src="CodeMirror-master/addon/search/search.js"></script>
+    <script src="CodeMirror-master/addon/dialog/dialog.js"></script>
+    <script src="CodeMirror-master/addon/edit/matchbrackets.js"></script>
+    <script src="CodeMirror-master/addon/edit/closebrackets.js"></script>
+    <script src="CodeMirror-master/addon/comment/comment.js"></script>
+    <script src="CodeMirror-master/addon/wrap/hardwrap.js"></script>
+    <script src="CodeMirror-master/addon/fold/foldcode.js"></script>
+    <script src="CodeMirror-master/addon/fold/brace-fold.js"></script>
+    <script src="CodeMirror-master/mode/clike/clike.js"></script>
+    <script src="CodeMirror-master/keymap/sublime.js"></script>
+    <script src="CodeMirror-master/addon/search/searchcursor.js"></script>
+    <script src="CodeMirror-master/addon/search/search.js"></script>
+    <script src="CodeMirror-master/addon/search/matchesonscrollbar.js"></script>
+    <script src="CodeMirror-master/addon/hint/show-hint.js"></script>
+    <script src="CodeMirror-master/addon/hint/anyword-hint.js"></script>
+
+    <!--Button-->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />  
+
+    <!--Circular-->
+      <link href="default.css" rel="stylesheet" type="text/css"  />
+      <link rel="stylesheet" href="css/circular_style.css">  
+    
+
+    <script src="js/circular.js"></script>  
+    <script src="js/jerry_functions.js"></script>  
+	</head>
+		
+  <body>
+
+
+            
+                
+            
+       
+        
+
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+			 <!-- Define JERRY -->
+			 <div class="jerry">
+
+       
+        		<div class="lights">
+            
+            		<span class="white_light"></span>
+            		<span class="dark_light"></span>
+        		</div>
+           	<div class="jerry_hair">
+          
+          		  <ul>
+		          <li class="h1"></li>
+		          <li class="h2"></li>
+		          <li class="h3"></li>
+		          <li class="h4"></li>
+		          <li class="h5"></li>
+		          <li class="h6"></li>
+		          <li class="h7"></li>
+		          <li class="h8"></li>
+		          <li class="h9"></li>
+		          <li class="h10"></li>
+		          <li class="h11"></li>
+		          <li class="h12"></li>
+		          </ul>
+        	</div>
+
+        	<div class="eyes1">
+          		<div class="eye_animate">
+          		</div>
+
+          		<div class="glasses">
+          		</div>
+            	<div class="white_part">
+              		<div class="brown_eye">
+                		<span class="black_part">
+                		</span>
+              		</div>
+            	</div>
+        	</div>
+
+        	<div class="eyes2">
+          		<div class="eye_animate">
+
+          		</div>
+
+          		<div class="glasses">
+          		</div>
+            
+            	<div class="white_part">
+              		<div class="brown_eye">
+                		<span class="black_part"></span>
+              		</div>
+            	</div>
+        	</div>
+
+        	<div class="jerry_hand">
+
+          		<div class="jerry_lh">
+          		</div>
+          
+          		<div class="animated_lh">
+            		<span class="gloves_lh">
+            		</span>
+            
+            		<span class="gloves_lh2">
+            		</span>
+          		</div>
+
+          		<div class="jerry_rh">
+          		</div>
+
+          		<span class="gloves_rh">
+          		</span>
+        		
+        	</div>
+
+        <div class="black_tie">
+          	<span class="right_tie">
+            <div class="top_tie">
+            </div>
+            <div class="down_tie">
+            </div>
+          	</span>
+          	<span class="left_tie">
+            <div class="top_tie">
+            </div>
+            <div class="down_tie">
+            </div>
+          	</span>
+        </div>
+
+        <div class="jerry_smile">
+          <span class="teeth1"></span>
+          <span class="teeth2"></span>
+        </div>
+
+        <div class="curves">
+          <span class="jerry_curve1"></span>
+          <span class="jerry_curve1 jerry_left_curve"></span>
+          <span class="jerry_curve2"></span>
+        </div>
+
+        <div class="clothes">
+          <div class="main_jerry"></div>
+          <div class="right_shirt jerry_right_shirt"></div>
+          <div class="right_shirt jerry_left_shirt"></div>
+          <div class="jerry_bottom"></div>
+        </div>
+
+        <div class="pocket">
+          <div class="logo"></div>
+          <span class="lines"></span>
+        </div>
+
+        <div class="legs">
+          <div class="jerry_shoes"><span class="jerry_small_shoes"></span></div>
+          <div class="jerry_shoes jerry_left_shoes"><span class="jerry_small_shoes"></span></div>
+        </div>
+
+        <h2>Jerry</h2>
+
+
+      </div>
+
+      <!--***********************************************************-->
+      <!--***********************************************************-->
+      <!-- End of Jerry -->
+
+
+
+      
+
+
+
+
+        <!-- Start bubble -->
+      <div class="oval-thought-border ">
+
+      	 <!-- Start Jerry Says -->
+      		<div class="jerry-content" align="center">
+          
+          			<div id="jerry-first-line" align="center">
+            		Welcome to Hack In Cloud 
+            		</div>
+          			</br>
+          			<div id="jerry-second-line" align="center">
+            		Please Wait for 5-10 Seconds to load !!!
+            		</div>
+            
+            		</br>
+            		<div id="jerry-third-line" align="center">
+            		Click On Menu
+            		</div>
+            
+          	</div>
+
+          	 <!-- Jerry says end -->
+      </div>
+
+       <!-- Bubble ends -->
+			<!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+
+
+
+			<!-- Start Circular Components -->
+			<div class="component" id="menu">
+				<!-- Start Circular Button -->
+				
+
+				<button class="cn-button" id="cn-button">
+					Menu
+				</button>
+				
+				 <!-- Start Circular List -->
+				<div class="cn-wrapper" id="cn-wrapper">
+					<ul>
+						
+            <!-- Boards Selection -->
+            <li><a onmouseover="show_boards()" href="#board"><span>Board</span></a></li>
+
+
+            <!-- Editors Selection -->
+						<li><a onmouseover="show_editors()" href="#editor"><span>Editor</span></a></li>
+
+
+						<!-- Output Selection -->
+            <li><a onmouseover="show_output()" href="#output" ><span>Output</span></a></li>
+
+
+            <!-- Examples Selection -->
+						<li><a onmouseover="show_examples()" href="#examples" ><span>Examples</span></a></li>
+
+
+            <!-- Tutorials Selection -->
+						<li><a onmouseover="show_tutorials()" href="#tutorials" ><span>Tutorials</span></a></li>
+
+
+            <!-- Offline Selection -->
+						<li><a onmouseover="show_offline()" href="#offline" ><span>Work</br>Offline</span></a></li>
+					 	
+
+            <!-- Share Selection -->
+            <li><a onmouseover="show_share()" href="#share" ><span>Share</br>Board</span></a></li>
+					 </ul>
+
+           
+				</div>
+				<!-- End of Circular List -->
+
+
+			</div>
+			 <!-- End of Circular Button -->
+
+			
+            
+		</div>
+		 <!-- End of Circular Components -->
+
+		</br>
+
+    <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+        <!--Start Views Wigit-->
+		    <div align=center class="views">
+
+           
+        </div>
+        
+        <!--End Views Wigit-->
+
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+		
+        <!--Start Embedded Boards Selection-->
+
+      <div id="board">
+           
+        <!--Start create line -->
+        <div class="section primary-section" id="service">
+
+          <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Boards</h1>
+                    <!-- Section's title goes here -->
+                    <p>Choose from the following boards.</p>
+                    <!--Simple description for section goes here. -->
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid">
+
+                  <!--Start Arduino nano Image-->
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/arduino_nano.jpg" alt="service 1">
+                            </div>
+                            <h3>Arduino Nano</h3>
+                            <p>Atmega 328p .</p>
+                        </div>
+                    </div>
+  
+                    <!--Start STM32 F0 Image-->
+
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                
+                                <img class="img-circle" src="images/stm32F0.jpg" alt="service 1">
+                            </div>
+                            <h3>STM32F0 Discovery</h3>
+                            <p>Cortex M0 Microcontroller .</p>
+                        </div>
+                    </div>
+                
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+            
+
+      </div>
+
+
+
+
+        <!--Stop Embedded Boards Selection-->
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+      <!--Start Editors-->
+        <div id="editor">
+
+          <!--Start create line -->
+        <div class="section primary-section" id="service">
+
+          <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Editor</h1>
+                    <!-- Section's title goes here -->
+                    <p>Choose from the following Editors.</p>
+                    <!--Simple description for section goes here. -->
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid">
+
+                  <!--Start Arduino nano Image-->
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <a href="#blockly">
+                                  <img class="img-circle" src="images/blockly.png" alt="service 1">
+                                </a>
+                            </div>
+                            <h3>Blockly</h3>
+                            <p>Graphical Editor  .</p>
+                        </div>
+                    </div>
+  
+                    <!--Start STM32 F0 Image-->
+
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <a href="#sublime">
+                                <img class="img-circle" src="images/sublime.jpg" alt="service 1">
+                              </a>
+                            </div>
+                            <h3>Sublime Text</h3>
+                            <p>Text Editor .</p>
+                        </div>
+                    </div>
+                
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+          
+
+        </div>
+        
+
+      <!--Stop Editors Selection-->
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+              <!--Start Output-->
+            <div id="output">
+
+                      <!--Start create line -->
+            <div class="section primary-section" id="service">
+
+          <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Output</h1>
+                    <!-- Section's title goes here -->
+                    <p>Choose from the following Outputs.</p>
+                    <!--Simple description for section goes here. -->
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid">
+
+                  <!--Start Arduino nano Image-->
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <a href="#simulate">
+                                <img class="img-circle" src="images/simulate.png" alt="service 1">
+                                </a>
+                            </div>
+                            <h3>123d Circuits</h3>
+                            <p>Simulation Tool  .</p>
+                        </div>
+                    </div>
+  
+                    <!--Start STM32 F0 Image-->
+
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <a href="#video">
+                                <img class="img-circle" src="images/appear.png" alt="service 1">
+                              </a>
+                            </div>
+                            <h3>Live Hardware</h3>
+                            <p>Live Streaming of the output .</p>
+                        </div>
+                    </div>
+                
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+          
+
+
+
+        </div>
+
+      <!--Stop Output Selection-->
+        
+
+
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+              <!--Start Blockly-->
+            <div id="blockly">
+
+            <!--Start create line -->
+            <div class="section primary-section" >
+
+            <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Blockly</h1>
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid">
+
+                    
+                    <!--*****************DISPLAY BLOCKLY-->
+                    <div id="blocklyDiv" style="height:420px; width: 500px;" ></div>
+  
+                    <!--BLOCKS-->          
+
+                <xml id="toolbox" style="display: none">
+                  <category name="Logic">
+                  <block type="controls_if"></block>
+                  <block type="logic_compare"></block>
+                  <block type="logic_operation"></block>
+                  <block type="logic_negate"></block>
+                  <block type="logic_boolean"></block>
+                </category>
+                <category name="Loops">
+                  <block type="controls_repeat_ext">
+                    <value name="TIMES"\>
+                      <block type="math_number">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                  </block>
+                  <block type="controls_whileUntil"></block>
+                </category>
+                <category name="Math">
+                  <block type="math_number"></block>
+                  <block type="math_arithmetic"></block>
+                </category>
+                <category name="Variables">
+                  <block type="variables_get"></block>
+                  <block type="variables_set"></block>
+                </category>
+                <category name="STM32">
+                  <block type="set_led"></block>
+                  <block type="my_delay"></block>
+                  <block type="my_set1_led"></block>
+                </category>
+                  
+                  <category name="Functions" >
+
+                  <block type="procedures_defnoreturn"></block>  
+
+                  </category>
+                <category name="Arduino">
+                  <block type="base_delay">
+                    <value name="DELAY_TIME">
+                      <block type="math_number">
+                        <field name="NUM">1000</field>
+                      </block>
+                    </value>
+                  </block>
+                   <block type="inout_highlow"></block>
+                  <block type="inout_digital_write"></block>
+                  <block type="inout_digital_read"></block>
+                    
+                  
+                </category>
+                  </xml>
+
+
+            <script>
+              var workspace = Blockly.inject('blocklyDiv',
+              {media: 'block/media/',
+              toolbox: document.getElementById('toolbox')});
+  
+
+
+                  function showCode() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.JavaScript.workspaceToCode(workspace);
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code'+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+
+    function showCode1() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.Arduino.workspaceToCode();
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+      if(xhr)
+      {
+        
+        alert("uploading Code to arduino Nano...."+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+
+    function showCode2() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.JavaScript.workspaceToCode(workspace);
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code'+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+    }
+
+
+
+    function discard() {
+  var count = Blockly.mainWorkspace.getAllBlocks().length;
+  if (count < 2 || window.confirm('Delete all ' + count + ' blocks?')) {
+    Blockly.mainWorkspace.clear();
+    
+  }
+}
+
+function saveCode() {
+  var fileName = window.prompt('What would you like to name your file?', 'BlocklyDuino')
+  //doesn't save if the user quits the save prompt
+  if(fileName){
+    var blob = new Blob([Blockly.Arduino.workspaceToCode()], {type: 'text/plain;charset=utf-8'});
+    saveAs(blob, fileName + '.ino');
+  }
+}
+    
+    function save() {
+  var xml = Blockly.Xml.workspaceToDom(Blockly.mainWorkspace);
+  var data = Blockly.Xml.domToText(xml);
+  var fileName = window.prompt('What would you like to name your file?', 'BlocklyDuino');
+  // Store data in blob.
+  // var builder = new BlobBuilder();
+  // builder.append(data);
+  // saveAs(builder.getBlob('text/plain;charset=utf-8'), 'blockduino.xml');
+  if(fileName){
+    var blob = new Blob([data], {type: 'text/xml'});
+    saveAs(blob, fileName + ".xml");
+  } 
+}
+
+
+function show() 
+    {
+      // Generate JavaScript code and display it.
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      var code = Blockly.Arduino.workspaceToCode();
+      alert(code);
+
+    }
+    
+
+
+    function load(event) 
+    {
+      var files = event.target.files;
+  // Only allow uploading one file.
+  if (files.length != 1) {
+    return;
+  }
+
+  // FileReader
+  var reader = new FileReader();
+  reader.onloadend = function(event) {
+    var target = event.target;
+    // 2 == FileReader.DONE
+    if (target.readyState == 2) {
+      try {
+        var xml = Blockly.Xml.textToDom(target.result);
+      } catch (e) {
+        alert('Error parsing XML:\n' + e);
+        return;
+      }
+      var count = Blockly.mainWorkspace.getAllBlocks().length;
+      if (count && confirm('Replace existing blocks?\n"Cancel" will merge.')) {
+        Blockly.mainWorkspace.clear();
+      }
+      Blockly.Xml.domToWorkspace(Blockly.mainWorkspace, xml);
+    }
+    // Reset value of input after loading because Chrome will not fire
+    // a 'change' event if the same file is loaded again.
+    document.getElementById('load').value = '';
+  };
+  reader.readAsText(files[0]);
+}
+
+
+function auto_save_and_restore_blocks() {
+  // Restore saved blocks in a separate thread so that subsequent
+  // initialization is not affected from a failed load.
+  
+  // Init load event.
+  var loadInput = document.getElementById('load');
+  loadInput.addEventListener('change', load, false);
+  document.getElementById('fakeload').onclick = function() {
+    loadInput.click();
+  };
+}
+
+function copy() {
+
+  Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+  var code = Blockly.Arduino.workspaceToCode();
+      
+  window.prompt("PRESS: Ctrl+C, Enter", code);
+}
+
+
+
+
+  </script>
+
+
+  <!--END OF SCRIPTS OF BLOCKLY-->
+
+                  <div class="selector">
+  <ul>
+
+    <li>
+      <input id="c1" type="button" onclick="discard()"/>
+      <label for="c1">Clear all</label>
+    </li>
+    <li>
+      <input id="c2" type="button" onclick="saveCode()"/>
+      <label for="c2">Download Code</label>
+    </li>
+    <li>
+      <input id="c3" type="button" onclick="save()"/>
+      <label for="c3">Save Project</label>
+    </li>
+    <li>
+      <input id="c4" type="button" onclick="show()"/>
+      <label for="c4">Show Code</label>
+    </li>
+    <li>
+      <input id="c5" type="button" onclick="copy()"/>
+      <label for="c5">Copy Code</label>
+    </li>
+    <li>
+      <input id="c6" type="button" onclick="showCode()"/>
+      <label for="c6">STM32F0</label>
+    </li>
+    <li>
+      <input id="c7" type="button" onclick="showCode1()"/>
+      <label for="c7">Arduino </br>nano</label>
+    </li>
+    <li>
+      <input id="c8" type="button" onclick="showcode2()"/>
+      <label for="c8">STM32F4</label>
+    </li>
+    <li>
+      <input id="c9" type="button" onclick="auto_save_and_restore_blocks()"/>
+      <label for="c9">Import Project</label>
+    </li>
+    
+  </ul>
+  <button>Click Me</button>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/circular_index.js"></script>
+        
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+          
+
+
+
+        </div>
+
+      <!--Stop Blockly-->
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+        <!--Start Sublime Text -->
+          <div id="sublime">
+
+            <!--Start create line -->
+            <div class="section primary-section" >
+
+            <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Sublime Text Editor</h1>
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid">
+
+                    
+                  <div align="left" id="text_editor">
+
+  <article>
+<script>
+
+
+  CodeMirror.commands.autocomplete = function(cm) {
+        cm.showHint({hint: CodeMirror.hint.anyword});
+      }
+  
+  value = "void setup()"+"\n";
+  value = value + "{"+"\n";
+  value = value + "\n" ;
+  value = value + "\n"+ "\n" ;
+  value = value + "}"+"\n";
+  value = value + "\n"+ "\n";
+  value = value + "void loop()"+"\n";
+  value = value + "{"+"\n";
+  value = value + "\n"+ "\n" ;
+  value = value + "\n" ;
+  value = value + "}"+"\n";
+
+  
+  var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+    value: value,
+    lineNumbers: true,
+    mode: "text/x-csrc",
+    keyMap: "sublime",
+    autoCloseBrackets: true,
+    matchBrackets: true,
+    showCursorWhenSelecting: true,
+    extraKeys: {"Ctrl-Space": "autocomplete","Ctrl-s": "save"},
+    theme: "monokai",
+    tabSize: 5
+  });
+
+  function lol()
+{
+
+      var code = editor.getValue();
+      
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code ..... '+"\n"+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+  
+}
+
+function lol1()
+{
+
+  var code = editor.getValue();
+
+      if(window.XMLHttpRequest)
+      {
+        xhr = new XMLHttpRequest();
+      }
+      else
+      {
+        xhr = new ActiveObject('Microsoft.XMLHTTP');
+      }
+
+      if(xhr)
+      {
+        alert('uploading code ........'+"\n"+code);
+        xhr.open("GET",'http://www.hackincloud.com/block/demos/generator/my_php.php?my_data='+code, true);
+        xhr.send();
+
+        
+      }
+      else
+      {
+        alert('php not ready');
+      }
+  
+    
+
+
+}
+
+
+
+
+</script>
+
+</article>
+
+
+<input type="submit" class="btn btn-2 btn-2g" value="Run on Arduino" name="get_started" onclick="lol()">    
+
+
+                
+
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+          
+
+
+
+        </div>
+
+
+
+
+        <!--Stop Sublime-->
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+        <!--Start simulate -->
+          <div id="simulate">
+              <!--Start create line -->
+            <div class="section primary-section" >
+
+            <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Test Using Simulation</h1>
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid" >
+                  <div align="left">
+                  <iframe frameborder="0" height="640" marginheight="0" marginwidth="0" scrolling="yes" src="https://123d.circuits.io/circuits/932406-the-unnamed-circuit/edit" width="1100 "></iframe>
+                </div>
+
+
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+          
+
+
+
+
+
+          </div>
+        <!--Stop Simulate-->
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+        <!--Start live video -->
+          <div id="video">
+
+              <div class="section primary-section" >
+
+            <!--Start Container-->
+            <div class="container">
+                
+                <!-- Start title section -->
+                <div class="title" align="center">
+                    <h1>Check Live Output</h1>
+                </div>
+
+                <!--Start inside line-->
+                <div class="row-fluid" >
+                  
+                    <iframe src="https://appear.in/my_cloud_lab" width="800" height="640" frameborder="0" class="container"></iframe>       
+        </div>
+
+
+                </div>
+                <!--End Line-->
+
+
+              </div>
+              <!--End Container-->
+            
+            </div>
+            <!--End primary-section-->
+          
+
+
+
+
+
+
+          </div>
+        <!--Stop live video-->
+        <!--***********************************************************-->
+        <!--***********************************************************-->
+
+
+
+
+        
+
+
+
+
+
+<!-- JS files for circulator -->
+<!-- NOTE PLEASE DONOT CHANGE ITS POSITION IT HAS TO BE INSIDE BODY-->
+        
+<script src="js/polyfills.js"></script>
+    <script src="js/demo2.js"></script>
+
+	</body>
+   <!--Widget JS-->
+       <!--
+            <script>var color='black';</script><script type='text/javascript' src='http://alivestats.com/widget.js'></script>
+      -->
+
+</html>

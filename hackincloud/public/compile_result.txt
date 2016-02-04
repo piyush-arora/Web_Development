@@ -1,0 +1,10 @@
+[Tue Feb  2 22:47:53 2016] Processing nanoatmega328 (platform: atmelavr, board: nanoatmega328, framework: arduino)
+--------------------------------------------------------------------------------------------------------------------
+BeforeUpload(["upload"], [".pioenvs/nanoatmega328/firmware.hex"])
+scons: *** [upload] Explicit exit, status Error: Please specify `upload_port` for environment or use global `--upload-port` option.
+For the some development platforms it can be USB flash drive
+
+Error: Please specify `upload_port` for environment or use global `--upload-port` option.
+For the some development platforms it can be USB flash drive
+
+=========================================== [ ERROR ] Took 0.57 seconds ===========================================
